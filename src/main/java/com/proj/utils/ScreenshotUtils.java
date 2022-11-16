@@ -6,7 +6,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 import java.io.IOException;
 
-public class WebDriverUtils {
+public class ScreenshotUtils {
     public static String takeScreenShot() throws IOException {
         return ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BASE64);
     }

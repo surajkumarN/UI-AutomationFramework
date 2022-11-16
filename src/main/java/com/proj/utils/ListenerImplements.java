@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static com.proj.utils.WebDriverUtils.takeScreenShot;
+import static com.proj.utils.ScreenshotUtils.takeScreenShot;
 
 
 public class ListenerImplements implements ITestListener {

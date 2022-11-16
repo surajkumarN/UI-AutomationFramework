@@ -12,7 +12,7 @@ import org.testng.ITestResult;
 
 import java.io.IOException;
 
-import static com.proj.utils.WebDriverUtils.takeScreenShot;
+import static com.proj.utils.ScreenshotUtils.takeScreenShot;
 
 
 public class TestListenerImpl implements ITestListener {
